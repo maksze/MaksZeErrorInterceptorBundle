@@ -1,0 +1,30 @@
+{
+  "name": "maksze/error-interceptor-bundle",
+  "description": "Error Interception",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maks Ze",
+      "email": "iam@maksze.ru"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "symfony/config": "^3.0|^4.0",
+    "symfony/dependency-injection": "^3.0|^4.0"
+  },
+  "require-dev": {
+    "symfony/phpunit-bridge": "^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "MaksZe\\ErrorInterception\\": "/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MaksZe\\\ErrorInterception\Tests\\": "tests/"
+    }
+  }
+}
